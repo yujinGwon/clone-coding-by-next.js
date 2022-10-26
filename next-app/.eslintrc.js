@@ -27,7 +27,7 @@ module.exports = {
     "jsx-ally/control-has-associated-label": "off", //* 상호 작용하는 엘리먼트에 label을 넣는다.
     "react/no-array-index-key": "off", //* key 값으로 index를 사용할 수 있다.
     "comma-dangle": "off", //* 마지막에 , 을 넣어주지 않는다.
-    "arrow-body-style": "off", //* 화살표 함수 안에 return을 사용할 수 있다.
+    "arrow-body-style": "on", //* 화살표 함수 안에 return을 사용할 수 있다.
     "react/no-unescaped-entities": "off", //* 문자열 내에서 " ' > } 허용
     "react/prop-types": "off", //* proptypes를 사용하지 않는다.
     "object-curly-newline": "off", //* { 다음 줄 바꿈을 강제로 사용하지 않는다.
@@ -37,7 +37,7 @@ module.exports = {
     "operator-linebreak": "off", //* 연산자 다음 줄 바꿈을 사용할 수 있다.
     "react/react-in-jsx-scope": "off", //* jsx를 사용하여도 react를 꼭 import 하지 않아도 된다.
     "react/jsx-props-no-spreading": "off", //* props를 스프레드 할 수 있다.
-    "jsx-ally/anchor-is-valid": "off", //* next js에서는 a에 href없이 사용
+    "jsx-ally/anchor-is-valid": "on", //* next js에서는 a에 href없이 사용
     "global-require": "off", //* 함수 내에서 require 사용 가능
     "no-use-before-define": "off", //* 선언 전에 사용하지 말라,
     "import/prefer-default-export": "off", //* export default 권장
